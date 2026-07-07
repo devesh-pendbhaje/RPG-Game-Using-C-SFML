@@ -1,0 +1,39 @@
+{
+    "recipes": [
+        {
+            "id": "house",
+            "name": "Shelter",
+            "requirements": {
+                "wood": 50,
+                "stone": 30
+            },
+            "dependency": "none"
+        },
+        {
+            "id": "farm",
+            "name": "Farming Plot",
+            "requirements": {
+                "wood": 20,
+                "stone": 10
+            },
+            "dependency": "house"
+        },
+        {
+            "id": "armor_upgrade",
+            "name": "Stone Armor",
+            "requirements": {
+                "stone": 40
+            },
+            "dependency": "none"
+        },
+        {
+            "id": "weapon_upgrade",
+            "name": "Sharpened Blade",
+            "requirements": {
+                "wood": 60,
+                "stone": 40
+            },
+            "dependency": "none"
+        }
+    ]
+}

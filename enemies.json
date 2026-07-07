@@ -1,0 +1,28 @@
+{
+    "enemies": [
+        {
+            "id": "orc",
+            "health": 50,
+            "speed": 60,
+            "damage": 10,
+            "detectionRadius": 300,
+            "behavior": "chase"
+        },
+        {
+            "id": "wizard",
+            "health": 35,
+            "speed": 45,
+            "damage": 15,
+            "detectionRadius": 400,
+            "behavior": "kite"
+        },
+        {
+            "id": "rogue",
+            "health": 40,
+            "speed": 95,
+            "damage": 8,
+            "detectionRadius": 250,
+            "behavior": "flank"
+        }
+    ]
+}
